@@ -29,3 +29,20 @@ const array = [
 ```
 
 clone this repository by this commmand: git clone https://github.com/zubair-oclouds/Array-Problem.git
+
+
+```javascript
+// Solution 2 output will be like this...
+
+{
+  id: 'one',
+  next: 'two',
+  value: {
+    id: 'two',
+    next: 'three',
+    value: { id: 'three', next: null, value: null }
+  }
+}
+
+
+```
